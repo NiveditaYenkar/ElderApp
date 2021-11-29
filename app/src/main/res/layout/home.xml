@@ -230,7 +230,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_centerVertical="true"
-                    android:text="Home Remedies"
+                    android:text="Natural Remedies"
                     android:textAllCaps="true"
                     android:textColor="#BD2CAF"
                     android:textSize="20sp"
