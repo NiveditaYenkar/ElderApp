@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".die">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:background="@drawable/s5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="Nutrition"
+            android:textAllCaps="true"
+            android:textColor="#971010"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#D5B3B3"
+                        android:gravity="center"
+                        android:text="Eat Enough Fiber"
+                        android:textAllCaps="true"
+                        android:textColor="#33691E"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h1"
+                        android:layout_marginTop="10sp"
+                        android:text="Fiber is essential for a healthy digestive system. To avoid constipation and other problems, include fiber-rich foods at every meal. Soluble fiber is especially important for maintaining healthy cholesterol levels. Good sources of fiber include:
+
+fruits,vegetables
+beans, lentils
+nuts, seeds
+oats, oat bran
+whole grains."
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#9099CA"
+                        android:gravity="center"
+                        android:text="Water"
+                        android:textAllCaps="true"
+                        android:textColor="#420D8C"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h2"
+                        android:layout_marginTop="10sp"
+                        android:text="Water constitutes the main component of our body. Water is present in our food and drinks. The most recommended drink is water! It is important to drink water in and between meals. Water, mainly tap water, also contains minerals, which are important for the body, e.g., calcium, magnesium and fluoride."
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#F38B6A"
+                        android:gravity="center"
+                        android:text="Protein rich foods"
+                        android:textAllCaps="true"
+                        android:textColor="#9C4A2F"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h3"
+                        android:layout_marginTop="10sp"
+                        android:text="Protein rich foood contains meat products (source of iron), milk products (source of calcium), eggs and legumes (source of iron and calcium). It provides other components: zinc, vitamin B12– in animal products, fiber – in legumes, Omega 3 – in fish. It is recommended to diversify and eat animal products (meat, chicken, fish, milk, eggs) and plant products (legumes like lentils, beans, humus). It is recommended to consume low fat foods: cheeses up to 5%, milk and yogurt 1-3%, lean, skinless meat products."
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#AA00FF"
+                        android:gravity="center"
+                        android:text="Sweets and Snacks"
+                        android:textAllCaps="true"
+                        android:textColor="#370778"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h4"
+                        android:layout_marginTop="10sp"
+                        android:text="Sweet and snacks are contains foods rich in fat and sugar and oftentimes also salt. These foods are not essential to the physical and nutritional health, but are associated with eating and cultural habits. It is recommended to eat these foods sparingly."
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

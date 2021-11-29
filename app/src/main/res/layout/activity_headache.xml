@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".headache">
+
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_marginLeft="200sp"
+            android:layout_marginTop="10sp"
+            android:src="@drawable/headache" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:layout_marginLeft="60sp"
+            android:text="Get Rid of Headache."
+            android:textColor="#F8171212"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E186B1"
+                        android:gravity="center"
+                        android:text="Cinnamon"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h1"
+                        android:layout_marginTop="10sp"
+                        android:text="Cinnamon is a miracle spice that is known as one of the effective headache remedies.Grind some cinnamon sticks into a powder, and add some water to make a thick paste. Apply it on your forehead and lie down for 30 minutes. Then wash it off with lukewarm water."
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#EDBB39"
+                        android:gravity="center"
+                        android:text="Ginger"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h2"
+                        android:layout_marginTop="10sp"
+                        android:text="Steep ginger root for tea, or mix equal parts of ginger juice and lemon juice and drink up. You can consume this once or twice a day. You can also apply a paste of ginger powder and 2 tablespoons water on your forehead for a few minutes to provide quicker relief."
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#EF771D"
+                        android:gravity="center"
+                        android:text="Tumeric Milk"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h3"
+                        android:layout_marginTop="10sp"
+                        android:text="The oil works as a muscle relaxant and helps get rid of headaches caused by tension and tight muscles. You can put 3 or 4 fresh basil leaves in a cup of boiling water and let it simmer. Add a little honey and sip the tea slowly. You can also chew some fresh basil leaves, or inhale the steam after boiling basil in a pot of water."
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

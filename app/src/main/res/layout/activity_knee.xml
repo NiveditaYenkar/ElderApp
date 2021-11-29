@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".knee">
+
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_marginLeft="200sp"
+            android:layout_marginTop="10sp"
+            android:src="@drawable/knee" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:layout_marginLeft="60sp"
+            android:text="Get Rid of Knee Pain"
+            android:textColor="#F8171212"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#BCC16F"
+                        android:gravity="center"
+                        android:text="Holy Basil "
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h1"
+                        android:layout_marginTop="10sp"
+                        android:text="Tulsi or holy basil is known as an anti-rheumatic (joint pains) and antispasmodic (muscle spasms) agent. It can be used externally to treat joint related ailments. Tulsi also works in relieving joint pain and pain associated with arthritis."
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#A2A581"
+                        android:gravity="center"
+                        android:text="Turmeric"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h2"
+                        android:layout_marginTop="10sp"
+                        android:text="Turmeric is antiseptic and has healing properties. When teamed with warm milk, it acts on treating joint pains as well as facilities the healing process."
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#AC7669"
+                        android:gravity="center"
+                        android:text="Cayenne pepper"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h3"
+                        android:layout_marginTop="10sp"
+                        android:text="Mix a tablespoon of cayenne pepper to olive oil or jojoba oil in a double boiler, heat this and apply it to the knee while hot. It gives instant relief and can be applied twice daily for better results. Capsaicin, a natural pain reliever of the pepper provides a warmth sensation for relieving pain immediately when applied."
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

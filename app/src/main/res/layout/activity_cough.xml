@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cough">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_marginLeft="200sp"
+            android:src="@drawable/coughg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:layout_marginLeft="60sp"
+            android:text="Get Rid of Cough."
+            android:textColor="#F8171212"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#BCC16F"
+                        android:gravity="center"
+                        android:text=" Honey + Mulethi + Cinnamon"
+                        android:textAllCaps="true"
+                        android:textColor="#33691E"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h1"
+                        android:layout_marginTop="10sp"
+                        android:text="'A mix of 1/4 teaspoon honey, 1/4 teaspoon mulethi powder and 1/4 teaspoon cinnamon with water had twice daily in the morning and evening works wonders.'"
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#A2A581"
+                        android:gravity="center"
+                        android:text="Spiced Tea"
+                        android:textAllCaps="true"
+                        android:textColor="#193155"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h2"
+                        android:layout_marginTop="10sp"
+                        android:text="A warm cup of spiced tea is a great way to get rid of a bad cough, naturally. Add 1/2 teaspoon ginger powder, a pinch of cinnamon and some cloves."
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#5A93C5"
+                        android:gravity="center"
+                        android:text="Tumeric Milk"
+                        android:textAllCaps="true"
+                        android:textColor="#0D3D5E"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h3"
+                        android:layout_marginTop="10sp"
+                        android:text="Boil a clove of garlic with milk and then add a pinch of turmeric to it. This drink  is an ideal cough treatment because it helps in healing and soothing your throat. You can even add ginger instead of garlic, both work equally well. Gargle with turmeric water few times in a day to get relief from constant coughing."
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

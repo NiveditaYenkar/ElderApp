@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".exe">
+
+    <RelativeLayout
+        android:id="@+id/rr"
+        android:layout_width="match_parent"
+        android:layout_height="100sp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/exe1" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="50sp"
+            android:layout_marginLeft="90sp"
+            android:layout_marginRight="50sp"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:textColor="#350873"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="EXERCISE TIPS"
+            android:textAllCaps="true" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rr">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BFCEFA"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="476dp"
+                android:layout_marginLeft="@dimen/horizontal_dashboard"
+                android:layout_marginTop="@dimen/normalPadding"
+                android:layout_marginRight="@dimen/horizontal_dashboard"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="@dimen/horizontal_card"
+                    android:layout_marginEnd="@dimen/horizontal_card"
+                    android:layout_marginRight="@dimen/horizontal_card"
+                    android:layout_marginBottom="@dimen/horizontal_card"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    app:cardCornerRadius="@dimen/card_radius"
+                    app:cardElevation="0dp"
+                    app:cardPreventCornerOverlap="false">
+
+                    <LinearLayout
+                        android:id="@+id/ll1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150sp"
+                            android:layout_marginTop="10sp"
+                            android:src="@drawable/e1"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/normalPadding"
+                            android:layout_marginTop="@dimen/top_text_card"
+                            android:layout_marginRight="@dimen/normalPadding"
+                            android:gravity="center"
+                            android:text="Exercise 1: Toe Lifts\n\n
+
+This strength training exercise for seniors also improves balance. You’ll need a chair or a counter.
+
+Stand straight and put your arms in front of you. Raise yourself up on your toes as high as you can go, then gently lower yourself. Don’t lean too far forward on the chair or counter. Lift and lower yourself 20 times."
+                            android:textColor="#7A3535"
+                            android:textSize="20sp"
+                            android:textStyle="bold|italic" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/horizontal_dashboard"
+                android:layout_marginTop="@dimen/normalPadding"
+                android:layout_marginRight="@dimen/horizontal_dashboard"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="@dimen/horizontal_card"
+                    android:layout_marginEnd="@dimen/horizontal_card"
+                    android:layout_marginRight="@dimen/horizontal_card"
+                    android:layout_marginBottom="@dimen/horizontal_card"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    app:cardCornerRadius="@dimen/card_radius"
+                    app:cardElevation="0dp"
+                    app:cardPreventCornerOverlap="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:id="@+id/iv1"
+                            android:layout_width="match_parent"
+                            android:layout_height="150sp"
+                            android:layout_marginTop="10sp"
+                            android:src="@drawable/shol"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/normalPadding"
+                            android:layout_marginTop="@dimen/top_text_card"
+                            android:layout_marginRight="@dimen/normalPadding"
+                            android:gravity="center"
+                            android:text="Exercise 2: Shoulder Rolls\n\nYou can do it seated or standing.
+
+Rotate your shoulders gently up to the ceiling, then back and down. Next, do the same thing, but roll them forwards and then down."
+                            android:textColor="#7A3535"
+                            android:textSize="20sp"
+                            android:textStyle="bold|italic" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/horizontal_dashboard"
+                android:layout_marginTop="@dimen/normalPadding"
+                android:layout_marginRight="@dimen/horizontal_dashboard"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="@dimen/horizontal_card"
+                    android:layout_marginEnd="@dimen/horizontal_card"
+                    android:layout_marginRight="@dimen/horizontal_card"
+                    android:layout_marginBottom="@dimen/horizontal_card"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    app:cardCornerRadius="@dimen/card_radius"
+                    app:cardElevation="0dp"
+                    app:cardPreventCornerOverlap="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150sp"
+                            android:layout_marginTop="10sp"
+                            android:src="@drawable/e5"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/normalPadding"
+                            android:layout_marginTop="@dimen/top_text_card"
+                            android:layout_marginRight="@dimen/normalPadding"
+                            android:gravity="center"
+                            android:text="Exercise 3 :Marching in Place\n\n
+Marching is a great balance exercise for seniors. If you need to hold onto something, do this exercise in front of a counter.
+
+Standing straight, lift your right knee as high as you can. Lower it, then lift the left leg. Lift and lower your legs 20 times."
+                            android:textColor="#7A3535"
+                            android:textSize="20sp"
+                            android:textStyle="bold|italic" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/horizontal_dashboard"
+                android:layout_marginTop="@dimen/normalPadding"
+                android:layout_marginRight="@dimen/horizontal_dashboard"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="@dimen/horizontal_card"
+                    android:layout_marginEnd="@dimen/horizontal_card"
+                    android:layout_marginRight="@dimen/horizontal_card"
+                    android:layout_marginBottom="@dimen/horizontal_card"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    app:cardCornerRadius="@dimen/card_radius"
+                    app:cardElevation="0dp"
+                    app:cardPreventCornerOverlap="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150sp"
+                            android:layout_marginTop="10sp"
+                            android:src="@drawable/e4"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/normalPadding"
+                            android:layout_marginTop="@dimen/top_text_card"
+                            android:layout_marginRight="@dimen/normalPadding"
+                            android:gravity="center"
+                            android:text="Exercise 4 : Hand and Finger Exercises\n\n
+
+The following are exercises to improve flexibility. You don’t need to stand for these.
+
+In the first exercise, pretend there’s a wall in front of you. Your fingers will climb the wall until they’re above your head. While holding your arms above your head, wiggle your fingers for ten seconds. Then, walk them back down.
+
+During the second exercise, touch your hands while they’re behind your back. Reach for your left hand while your right hand is behind your back. Hold that position for ten seconds, then try with your other arm."
+                            android:textColor="#7A3535"
+                            android:textSize="20sp"
+                            android:textStyle="bold|italic" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/horizontal_dashboard"
+                android:layout_marginTop="@dimen/normalPadding"
+                android:layout_marginRight="@dimen/horizontal_dashboard"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="@dimen/horizontal_card"
+                    android:layout_marginEnd="@dimen/horizontal_card"
+                    android:layout_marginRight="@dimen/horizontal_card"
+                    android:layout_marginBottom="@dimen/horizontal_card"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    app:cardCornerRadius="@dimen/card_radius"
+                    app:cardElevation="0dp"
+                    app:cardPreventCornerOverlap="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150sp"
+                            android:layout_marginTop="10sp"
+                            android:src="@drawable/ee"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/normalPadding"
+                            android:layout_marginTop="@dimen/top_text_card"
+                            android:layout_marginRight="@dimen/normalPadding"
+                            android:gravity="center"
+                            android:text="Exercise 5 :Wall Pushups\n\n
+
+As long as you’ve got a wall, you can do this strength training exercise for seniors.
+
+Stand an arm’s length in front of a wall that doesn’t have any paintings, decorations, windows or doors. Lean forward slightly and put your palms flat on the wall at the height and width of your shoulders. Keep your feet planted as you slowly bring your body towards the wall. Gently push yourself back so that your arms are straight. Do twenty of these."
+                            android:textColor="#7A3535"
+                            android:textSize="20sp"
+                            android:textStyle="bold|italic" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

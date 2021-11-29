@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".remind">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C5B5AA"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/horizontal_dashboard"
+        android:layout_marginTop="@dimen/normalPadding"
+        android:layout_marginRight="@dimen/horizontal_dashboard"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/horizontal_card"
+            android:layout_marginEnd="@dimen/horizontal_card"
+            android:layout_marginBottom="@dimen/horizontal_card"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            app:cardCornerRadius="@dimen/card_radius"
+            app:cardElevation="0dp"
+            app:cardPreventCornerOverlap="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:gravity="center"
+                    android:text="Morning"
+                    android:textColor="#C51162"
+                    android:textSize="20sp"
+
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/normalPadding"
+                    android:layout_marginTop="@dimen/top_text_card"
+                    android:textColor="#7A3535"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:text="- Wakeup.\n- Fresh, Blush the teeth.\n- Do the exercise and take walk.\n- Prepare and eat breakfast.\n- Read the newspaper\n-Have a conversation over coffee
+\n- Do some chores together.\n- Take bath.\n" />
+
+
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/horizontal_card"
+            android:layout_marginEnd="@dimen/horizontal_card"
+            android:layout_marginBottom="@dimen/horizontal_card"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            app:cardCornerRadius="@dimen/card_radius"
+            app:cardElevation="0dp"
+            app:cardPreventCornerOverlap="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:gravity="center"
+                    android:text="Afternoon"
+                    android:textColor="#C51162"
+                    android:textSize="20sp"
+
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/normalPadding"
+                    android:layout_marginTop="@dimen/top_text_card"
+                    android:textColor="#7A3535"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:text="- Prepare and eat lunch.\n-Listen to music.\n- Watch TV.\n- Do some gardening,take a walk,visit a friend.\n- Take a short break or nap."/>
+
+
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/horizontal_card"
+            android:layout_marginEnd="@dimen/horizontal_card"
+            android:layout_marginBottom="@dimen/horizontal_card"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            app:cardCornerRadius="@dimen/card_radius"
+            app:cardElevation="0dp"
+            app:cardPreventCornerOverlap="false">
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:gravity="center"
+                    android:text="Evening"
+                    android:textColor="#C51162"
+                    android:textSize="20sp"
+
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/normalPadding"
+                    android:layout_marginTop="@dimen/top_text_card"
+                    android:textColor="#7A3535"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:text="- Prepare and eat dinner.\n- Watch Tv.\n- Give a massage\n- Take a bath, get ready for bed, read a book."/>
+
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

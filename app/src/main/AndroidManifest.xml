@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.elderlycare" >
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="Elder Care App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Elderlycare">
+        <activity
+            android:name=".die"
+            android:exported="false" />
+        <activity
+            android:name=".remind"
+            android:exported="false" />
+        <activity
+            android:name=".exe"
+            android:exported="false" />
+        <activity
+            android:name=".backpain"
+            android:exported="false" />
+        <activity
+            android:name=".knee"
+            android:exported="false" />
+        <activity
+            android:name=".headache"
+            android:exported="false" />
+        <activity
+            android:name=".cough"
+            android:exported="false" />
+        <activity
+            android:name=".spirit"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".expert"
+            android:exported="false" />
+        <activity
+            android:name=".die"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".remedy"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

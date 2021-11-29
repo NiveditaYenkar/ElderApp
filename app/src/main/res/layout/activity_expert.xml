@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".expert">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="200sp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/doc" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#A6E860"
+                        android:gravity="center"
+                        android:text="Get a vitamin boost"
+                        android:textAllCaps="true"
+                        android:textColor="#33691E"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h1"
+                        android:layout_marginTop="10sp"
+                        android:text="Lots of people have a vitamin D deficiency and don’t know it. In fact, it’s estimated that
+ it affects half of the adult population.
+ Vitamin D deficiency has been linked to cognitive impairment,
+bone problems and also cardiovascular disease.
+Try to get outside in the sunshine for at least 15-20 minutes a day for
+ a vitamin D boost.
+It can also be found in food such as eggs and oily
+fish. Alternatively, talk to your doctor about a
+vitamin D supplement."
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#BF827BDC"
+                        android:gravity="center"
+                        android:text="Stay active"
+                        android:textAllCaps="true"
+                        android:textColor="#2D548E"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h2"
+                        android:layout_marginTop="10sp"
+                        android:text="Daily exercise helps you to stay strong and healthy. This will lower your risk of obesity, heart disease, stroke, diabetes, and even cancer. If that wasn't enough, staying active can boost your self-esteem, improve your sleep, and give you more energy.
+
+Government guidelines recommend that older adults do 150 minutes of moderate intensity activity per week, as well as strengthening exercises twice a week.
+
+If that sounds like a lot, start small and as you get stronger you will be able to work up to those amounts."
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#F38B6A"
+                        android:gravity="center"
+                        android:text="Sort out your sleep"
+                        android:textAllCaps="true"
+                        android:textColor="#9C4A2F"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h3"
+                        android:layout_marginTop="10sp"
+                        android:text="
+Many of us have trouble getting – or staying – asleep as we get older. This can leave you feeling tired and grumpy.
+
+Avoid insomnia by cutting down on daytime naps, establishing a bedtime routine and going to bed at the same time each night.
+
+Try a warm drink such as chamomile tea or hot milk before you go to bed."
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#B87B97"
+                        android:gravity="center"
+                        android:text="Take care of your feet"
+                        android:textAllCaps="true"
+                        android:textColor="#5D217C"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h4"
+                        android:layout_marginTop="10sp"
+                        android:text="
+Look after your feet by applying moisturiser to prevent dry skin and cutting your toenails straight across. Make sure you have footwear that fits properly and supports your feet.
+
+If they're sore you may be tempted to stay in slippers, but a pair of trainers could be a good option as they are more supportive.
+
+Contact your doctor if your feet become painful, feel very hot or cold or if you have common problems like corns, bunions or ingrown toenails."
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/h5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#EDD280"
+                        android:gravity="center"
+                        android:text="Make the most of your Doctor"
+                        android:textAllCaps="true"
+                        android:textColor="#A38221"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/h5"
+                        android:layout_marginTop="10sp"
+                        android:text="It’s a good idea to get some routine tests done at the doctors to check your blood pressure and cholesterol levels. High readings increase your risk factor for stroke and heart disease but any problems are completely reversible with medication."
+                        android:textColor="#251E1E"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
