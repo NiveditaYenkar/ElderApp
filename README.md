@@ -5,4 +5,6 @@ A complete health care app with UI and following features : Exercise, Nutrition,
 To install the app, just download the apk for Android.
 
 # Screenshot
-<img src="https://github.com/NiveditaYenkar/ElderApp/issues/1#issue-1066736327" width="200" height="200" />
+## Step 1 : Splash Screen
+
+ <img src="https://user-images.githubusercontent.com/95238776/143978447-c52e736a-443a-4b97-bc32-aa78b8edd276.JPG" width="300" height="500" />
