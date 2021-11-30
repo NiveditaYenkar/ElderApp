@@ -3,3 +3,4 @@ A complete health care app with UI and following features : Exercise, Nutrition,
 
 # Installing
 To install the app, just download the apk for Android.[()]
+<img src="http://....jpg" width="200" height="200" />
